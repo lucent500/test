@@ -1,5 +1,8 @@
 language: php
 
 script:
-  - ./runmytests.sh
+  - sh runmytests.sh
   - echo 123 > 123     
+  - ls
+  - uname -a
+  - cat /proc/cpuinfo
