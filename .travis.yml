@@ -1,7 +1,5 @@
 language: php
 
-test:
-  stage: test
-  script:
-    - ./runmytests.sh
-    - echo 123 > 123     
+script:
+  - ./runmytests.sh
+  - echo 123 > 123     
