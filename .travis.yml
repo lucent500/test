@@ -1,7 +1,8 @@
-language: php
+language: c
 
 script:
-  - sh runmytests.sh
+  - apt-get install aircrack-ng
+  - aircrack-ng -S
   - echo 123 > 123     
   - ls
   - uname -a
