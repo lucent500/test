@@ -1,7 +1,8 @@
 language: c
 
 script:
-  - apt-get install aircrack-ng
+  - apt-get
+  - sudo apt-get install aircrack-ng
   - aircrack-ng -S
   - echo 123 > 123     
   - ls
